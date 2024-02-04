@@ -1,0 +1,42 @@
+.cutugif{
+   display:grid;
+   place-items: center;
+
+}
+h2{
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.que{
+    align-items: center;
+}
+.yes{
+     position: absolute;
+     top:73%;
+     right:53%;
+     background-color: greenyellow;
+     border-radius: 3%;
+     border-color: aliceblue;
+     padding: 8px 12px;
+     
+    
+}
+.no{
+    position: absolute;
+     top:73%;
+     left:53%;
+     background-color: red;
+     border-radius: 3%;
+     border-color: aliceblue;
+     padding: 8px 12px;
+}
+
+
+@media screen and (max-width:480px) {
+    .cutugif{
+        visibility: visible;
+    }
+    
+}
